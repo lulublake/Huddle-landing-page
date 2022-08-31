@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* TITLE SECTION */
+.first-section{
+    background-image: url(images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: hsl(193, 100%, 96%);
+}
+.navbar{
+    padding: 20px 5px 0;
+}
+.btn{
+    background-color: white;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 5px 25px;
+}
+.second-container{
+    padding: 80px 35px 40px;
+}
+h1{
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 16px;
+}
+.start-btn{
+    border-radius: 50px;
+    color: white;
+    border: 0;
+    background-color: hsl(322, 100%, 66%);
+    padding: 10px 55px;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 20px 0 70px;
+}
+.start-btn:hover{
+    background-color: hsla(322, 100%, 66%, 0.85);
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* MIDDLE SECTION */
+#body-section{
+    background-color: rgba(245, 244, 244, 0.327);
+    padding: 50px 0 20px;
+}
+.middle-containers{
+    background-color: white;
+    margin: 0 20px 40px;
+    border-radius: 20px;
+    padding: 45px 35px 30px;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    margin: 50px 0 20px;
+}
+.middle-p{
+    font-size: 14px;
+    color: hsl(208, 11%, 55%);
+}
+.btn-container{
+    background-color: white;
+    margin: 0 15px 0;
+    border-radius: 20px;
+    padding: 30px 15px 0;
+    position: relative;
+    z-index: 1;
+    top: 85px;
+}
+h3{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+.last-btn{
+    margin-bottom: 30px;
+    padding: 10px 45px;
+}
+
+/* FOOTER SECTION */
+#footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    text-align: left;
+    padding: 130px 20px 30px;
+}
+
+.contact-us{
+    padding: 30px 0 40px;
+}
+.address{
+    display: flex;
+}
+.footer-p{
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 20px;
+    width: 80%;
+}
+
+.hover-p:hover{
+    text-decoration: underline;
+}
+
+.icon-container{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding-bottom: 10px;
+}
+.icon{
+    margin: 0 10px 30px 0;
+    
+}
+#copyright{
+    font-size: 13px;
+}
+
+@media (min-width: 769px){
+    .navbar img{
+        width: 150px;
+    }
+    .btn{
+        background-color: white;
+        font-weight: 700;
+        font-size: 13px;
+        border-radius: 50px;
+        padding: 10px 40px;
+    }
+    .second-container{
+        padding: 80px 35px 0;
+        display: inline-block;
+        text-align: left;
+    }
+    
+    h1{
+        font-size: 25px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+        font-family: 'Poppins', sans-serif;
+    }
+    p{
+        font-size: 16px;
+        width: 50%;
+    }
+}
