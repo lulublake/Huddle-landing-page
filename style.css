@@ -3,6 +3,7 @@
     padding: 0;
 }
 body{
+    color: hsl(192, 100%, 9%);
     font-size: 18px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -26,9 +27,14 @@ body{
     border-radius: 50px;
     padding: 5px 25px;
 }
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.867);
+    color: hsla(192, 100%, 9%, 0.568);
+}
 .second-container{
     padding: 80px 35px 40px;
 }
+
 h1{
     font-size: 25px;
     line-height: 1.5;
@@ -117,7 +123,7 @@ h3{
 }
 
 .icon-container{
-    background-color: hsl(192, 100%, 9%);
+    text-align: center;
     color: white;
     padding-bottom: 10px;
 }
@@ -129,31 +135,153 @@ h3{
     font-size: 13px;
 }
 
+
+
+
 @media (min-width: 769px){
+
+    /* BODY SECTION */
+    .first-section{
+        background-image: url(images/bg-hero-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: hsl(193, 100%, 96%);
+        height: 700px;
+    }
     .navbar img{
-        width: 150px;
+        width: 200px;
+    }
+    .navbar{
+        padding-top: 50px;
     }
     .btn{
         background-color: white;
         font-weight: 700;
         font-size: 13px;
         border-radius: 50px;
-        padding: 10px 40px;
+        padding: 10px 55px;
+    }
+    .start-btn{
+        padding: 15px 55px;
+        
     }
     .second-container{
         padding: 80px 35px 0;
         display: inline-block;
         text-align: left;
+        margin-left: 50px;
     }
-    
+    #mockup{
+        width: 700px;
+        position: absolute;
+        right: 100px;
+        top: 150px;
+    }
     h1{
-        font-size: 25px;
+        font-size: 40px;
+        width: 35%;
         line-height: 1.5;
         margin-bottom: 30px;
         font-family: 'Poppins', sans-serif;
+        padding-top: 50px;
     }
     p{
-        font-size: 16px;
+        font-size: 17px;
+        width: 38%;
+    }
+
+    /* MIDDLE SECTION */
+    #grow{
+        float: right;
+        width: 370px;
+    }
+    #flow{
+        float: left;
+        width: 400px;
+    }
+    #body-section{
+        background-color: rgba(245, 244, 244, 0.327);
+        padding: 120px 0 20px;
+    }
+    .middle-containers{
+        background-color: white;
+        margin: 0 120px 40px;
+        border-radius: 20px;
+        padding: 45px 35px 30px 150px;
+        height: 400px;
+    }
+    h2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 27px;
+        margin: 50px 0 20px;
+        text-align: left;
+        padding-top: 40px;
+    }
+    .middle-p{
+        font-size: 18px;
+        color: hsl(208, 11%, 55%);
+        text-align: left;
+        line-height: 1.5;
         width: 50%;
+    }
+    .btn-container{
+        margin: auto;
+        width: 50%;
+        padding: 50px 10px 15px;
+        top: 100px;
+    }
+    h3{
+        font-size: 30px;
+    }   
+    .last-btn{
+        font-size: 18px;
+        padding: 20px 90px;
+        margin-top: 30px;
+    } 
+
+    /* FOOTER SECTION */
+    .last-contact{
+        display: inline-block;
+        width: 19%;
+        padding-top: 30px;
+    }
+    .hover-p{
+        width: 100%;
+        font-size: 15px;
+    }
+    .contact-us{
+        display: inline-block;
+        width: 40%;
+    }
+    #footer{
+        padding: 200px 120px 60px;
+    }
+    .footer-p{
+        width: 70%;
+        font-size: 15px;
+    }
+    .icon-container{
+        display: inline-block;
+        padding-top: 30px;
+        text-align: left;
+    }
+    #copyright{
+        width: 100%;
+        padding-top: 150px;
+        font-size: 12px;
+    }
+    .lastbody{
+        display:flex;
+        margin-top: 15px;
+    }
+    #logo-copy{
+        width: 250px;
+    }
+    .phone-no{
+        margin-top: 10px;
+    }
+    .email{
+        margin-top: 10px;
     }
 }
