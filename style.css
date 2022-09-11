@@ -211,6 +211,13 @@ h3{
         padding: 45px 35px 30px 150px;
         height: 400px;
     }
+    .flow-container{
+        display: flex;
+        padding-bottom: 50px;
+    }
+    .middle-center{
+        margin-left: 160px;
+    }
     h2{
         font-family: 'Poppins', sans-serif;
         font-size: 27px;
@@ -224,6 +231,9 @@ h3{
         text-align: left;
         line-height: 1.5;
         width: 50%;
+    }
+    .flow-p{
+        width: 100%;
     }
     .btn-container{
         margin: auto;
